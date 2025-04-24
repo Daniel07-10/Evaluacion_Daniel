@@ -7,7 +7,6 @@ export const Footer = () => {
         <p className="text-sm">&copy; {new Date().getFullYear()} Daniel Bañol. Todos los derechos reservados.</p>
         <div className="flex space-x-4">
           <a href="https://github.com" className="hover:text-gray-400 transition">GitHub</a>
-          <a href="Daniel.banol58@gmail.com" className="hover:text-gray-400 transition">Contacto</a>
         </div>
       </div>
     </footer>
