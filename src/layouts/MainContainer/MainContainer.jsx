@@ -34,7 +34,7 @@ export const MainContainer = () => {
   
   
   return (
-    <main className="p-6 w-5/6 mx-auto">
+    <main className="px-6 py-10 max-w-7xl mx-auto overflow-x-hidden">
         <InputFiltro search={search} setSearch={setSearch} />
 
         <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
